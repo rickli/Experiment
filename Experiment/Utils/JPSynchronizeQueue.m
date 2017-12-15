@@ -45,7 +45,7 @@
 }
 
 #pragma mark - async
-+ (NSOperation *)execAsynBlock:(void (^)(void))block {
++ (NSOperation *)execAsyncBlock:(void (^)(void))block {
     return [[JPSynchronizeQueue synchronizeQueue] execAsynBlock:block];
 }
 

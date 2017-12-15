@@ -21,7 +21,6 @@
 		3CBA970C1FE105FB00F7AA59 /* JPSynchronizeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA970B1FE105FB00F7AA59 /* JPSynchronizeQueue.m */; };
 		3CBA97131FE24CAD00F7AA59 /* JPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA97121FE24CAD00F7AA59 /* JPImageView.m */; };
 		3CBA97161FE24D0000F7AA59 /* JPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA97151FE24D0000F7AA59 /* JPString.m */; };
-		3CBA97221FE3738600F7AA59 /* fstpevfuwuqo7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA97211FE3737A00F7AA59 /* fstpevfuwuqo7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,7 +241,7 @@
 		3CBA96C31FDFD7B800F7AA59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Rick;
 				TargetAttributes = {
 					3CBA96CA1FDFD7B800F7AA59 = {
@@ -288,7 +287,6 @@
 			files = (
 				3CBA96DB1FDFD7B800F7AA59 /* LaunchScreen.storyboard in Resources */,
 				3CBA96D81FDFD7B800F7AA59 /* Assets.xcassets in Resources */,
-				3CBA97221FE3738600F7AA59 /* fstpevfuwuqo7.png in Resources */,
 				3CBA96D61FDFD7B800F7AA59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -473,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -487,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DT83XQ2BD;
 				INFOPLIST_FILE = Experiment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.rick.Experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,7 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DT83XQ2BD;
 				INFOPLIST_FILE = Experiment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.experiment.rick.Experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";

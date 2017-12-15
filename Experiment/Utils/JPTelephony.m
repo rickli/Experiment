@@ -10,7 +10,7 @@
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <CoreTelephony/CTCarrier.h>
 
-extern NSString *CTSettingCopyMyPhoneNumber();
+extern NSString *CTSettingCopyMyPhoneNumber(void);
 
 @implementation JPTelephony
 
